@@ -1,0 +1,79 @@
+# Ruby Path
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+
+
+# Setting Path for Go Programming
+export GOROOT="/usr/local/go"
+export PATH=$PATH:$GOROOT/bin
+
+# export GOPATH="/Users/krishna/Penetration_Testing_Tools"
+# export PATH="/Users/krishna/Penetration_Testing_Tools/bin:$PATH"
+
+
+# Alias for httpx
+
+alias httpx='/Users/krishna/Penetration_Testing_Tools/Recon/httpx/cmd/httpx/./httpx'
+
+# Alias for waybackurl
+
+alias waybackurl='/Users/krishna/Penetration_Testing_Tools/Recon/waybackurls/./waybackurls'
+
+# Alias for qsreplace tool
+
+alias qsreplace='/Users/krishna/Penetration_Testing_Tools/Recon/qsreplace/./main'
+
+
+# Alias for gf tool
+
+alias gf='/Users/krishna/Penetration_Testing_Tools/Recon/gf/./main'
+
+# Alias for meg tool
+
+alias meg='/Users/krishna/Penetration_Testing_Tools/Recon/meg/./meg'
+
+
+# Alias for Dirsearch tool
+
+alias dirsearch='python3 /Users/krishna/Penetration_Testing_Tools/Directory_BruteForce/dirsearch/dirsearch.py'
+
+# Alias for ffuf tool
+
+alias ffuf='/Users/krishna/Penetration_Testing_Tools/Directory_BruteForce/ffuf/./ffuf'
+
+
+
+
+
+
+
+
+# Setting Path for Go Programming
+#export GOROOT="usr/local/go"
+#export PATH=$PATH:$GOROOT/bin
+
+# export GOPATH="/Users/krishna/Penetration_Testing_Tools"
+# export PATH="/Users/krishna/Penetration_Testing_Tools/bin:$PATH"
+
+# Setting Path for Go Programming
+#export GOROOT="usr/local/go"
+#export GOPATH="/Users/krishna/Penetration_Testing_Tools"
+#export PATH="/Users/krishna/Penetration_Testing_Tools/bin:$PATH"
+
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
